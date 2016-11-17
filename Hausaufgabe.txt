@@ -1,0 +1,28 @@
+---
+title: "Untitled"
+author: "Fabienne Petrack"
+date: "16 November 2016"
+output: html_document
+---
+
+##Daten als Dataframe einlesen 
+  df2 <-read.table("C:\Users\Fabienne\Desktop\R-Course-2016\Session_03" , header = TRUE)
+  print(df2) um Tabelle einzusehen
+
+##Durchschnittliche Pausenlaenge 
+
+  mean(subset(df2$LAENGE,df2$GESCHLECHT=="maennlich"))
+    Antwort: 901,5803
+  
+##Die kuerzeste und die laenste Pause identifizieren (Fallnummer angeben)
+  which.max (df2$LAENGE) : 204 Länge: 1600
+  which.min (df2$LAENGE) : 500 Länge: 251
+
+##Ueberpruefen, ob es stimmt, dass Frauen im Dialog eher Schweigepausen machen. table()
+  table(subset(df2$FILLER == "stille" , df2$G == "weiblich"))
+    TRUE 171
+    
+  table(subset(df2$FILLER == "stille" , df2$G == "männlich"))
+    TRUE 161
+        
+        es ist wahr. 
