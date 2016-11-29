@@ -35,3 +35,5 @@ df[v.of.classes, ][df$TypenFrequenz > 150, ]
 
 * die Dokumentation für das Paket `readr` durchlesen: https://github.com/tidyverse/readr
 
+* bedingte Abfrage wie heute machen (letzte HA)
+
