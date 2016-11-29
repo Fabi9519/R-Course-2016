@@ -1,5 +1,5 @@
 ---
-title: "Document Ã¼ber Literate Programming"
+title: "Erste Schritte mit R"
 author: "Andrei Beliankou"
 date: "November 03, 2016"
 output: html_document
@@ -12,6 +12,9 @@ When you click the **Knit** button _a document_ will be generated that includes 
 ```{r summary_block, echo = F, cache = T}
 summary(cars)
 ```
+```{r}
+print("Hello World")
+```
 
 You can also embed plots, for example:
 
@@ -20,6 +23,16 @@ plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Wie bekomme ich hilfe in R?
+
+Wir möchten die Hilfe für die Funktion `print()` bekommen.
+
+Variante I:
+```{r}
+?print
+```
+
 
 ## Aufgaben fÃ¼r selbststÃ¤ndige Arbeit
 
