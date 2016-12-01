@@ -33,6 +33,17 @@ Variante I:
 ?print
 ```
 
+Variante II:
+```{r}
+help(print)
+```
+
+Variante III:
+Man kann die eingebaute Hilfe in RStudio benutzen.
+
+Variante IV:
+Mittelwert in R berechnen mit:
+mean(x, trim = 0, na.rm = FALSE, )
 
 ## Aufgaben für selbstständige Arbeit
 
