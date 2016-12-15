@@ -17,3 +17,11 @@ Datenabfragen. Konflikte in Git.
 ## Sitzung 05
 Arbeit mit XML-Daten. Auswahl der ignorierten Daten in Git.
 
+## Sitzung 06
+Deskriptive Statistiken. Graphische Darstellung nominaler Daten.
+
+## Sitzung 07
+Streuungswerte. Einführung in ggplot2.
+
+## Session 08
+Graphische Darstellung der Daten
